@@ -1,7 +1,7 @@
 {
   "name": "loppo-theme-wangdoc-frontpage",
   "version": "0.0.1",
-  "description": "网道",
+  "description": "templates for Wangdoc frontpage",
   "main": "index.js",
   "scripts": {
     "update-bulma": "npm update bulma && cp -rf ./node_modules/bulma/bulma.sass ./node_modules/bulma/sass .",
