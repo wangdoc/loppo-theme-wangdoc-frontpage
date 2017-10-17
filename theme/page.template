@@ -13,7 +13,7 @@
 <section class="section">
 <div class="columns">
   <div class="column is-7 is-offset-1 ">
-    <div class="content">
+    <div class="content is-medium">
       <% if (page_title !== 'Documents') { %>
         <h1><%= page_title %></h1>
       <% } %>
