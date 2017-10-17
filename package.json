@@ -1,6 +1,6 @@
 {
   "name": "loppo-theme-wangdoc-frontpage",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "网道",
   "main": "index.js",
   "scripts": {
