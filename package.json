@@ -1,7 +1,7 @@
 {
   "name": "loppo-theme-wangdoc-frontpage",
   "version": "0.0.2",
-  "description": "templates for Wangdoc frontpage",
+  "description": "template for Wangdoc frontpage",
   "main": "index.js",
   "scripts": {
     "update-bulma": "npm update bulma && cp -rf ./node_modules/bulma/bulma.sass ./node_modules/bulma/sass .",
@@ -11,6 +11,11 @@
     "build-sass": "node-sass --output-style expanded --source-map true sass/app.sass theme/assets/css/app.css",
     "build-uglify": "cleancss --source-map -o theme/assets/css/app.min.css theme/assets/css/app.css",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/wangdoc/loppo-theme-wangdoc-frontpage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangdoc/loppo-theme-wangdoc-frontpage.git"
   },
   "keywords": [
     "loppo",
