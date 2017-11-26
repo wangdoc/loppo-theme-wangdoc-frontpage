@@ -4,6 +4,7 @@
   "description": "template for Wangdoc frontpage",
   "main": "index.js",
   "scripts": {
+    "precommit": "npm run build-css",
     "update-bulma": "npm update bulma && cp -rf ./node_modules/bulma/bulma.sass ./node_modules/bulma/sass .",
     "clean-css": "rm -rf ./theme/assets/css/*",
     "build-css": "npm run clean-css && npm run build-sass && npm run build-autoprefix && npm run build-uglify",
@@ -29,6 +30,7 @@
     "autoprefixer": "^7.1.6",
     "bulma": "^0.6.1",
     "clean-css-cli": "^4.1.10",
+    "husky": "^0.14.3",
     "node-sass": "^4.7.2",
     "postcss-cli": "^4.1.1"
   }
