@@ -12,8 +12,9 @@
 
 <section class="section">
   <div class="container">
+
 <div class="columns">
-  <div class="column is-7 is-offset-1 ">
+  <div class="column is-9">
     <div class="content is-medium">
       <% if (page_title !== 'Documents') { %>
         <h1><%= page_title %></h1>
@@ -21,11 +22,13 @@
       <%= content %>
     </div>
   </div>
-  <div class="column is-3 is-offset-8">
+
+  <div class="column is-3 is-offset-9">
     <aside class="menu">
     </aside>
   </div>
 </div>
+
   </div>
 </section>
 
