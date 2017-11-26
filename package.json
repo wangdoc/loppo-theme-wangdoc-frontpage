@@ -26,10 +26,10 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "autoprefixer": "^7.1.5",
-    "bulma": "^0.6.0",
+    "autoprefixer": "^7.1.6",
+    "bulma": "^0.6.1",
     "clean-css-cli": "^4.1.10",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.7.2",
     "postcss-cli": "^4.1.1"
   }
 }
