@@ -4,7 +4,7 @@
   "description": "template for Wangdoc frontpage",
   "main": "index.js",
   "scripts": {
-    "precommit": "npm run build-css",
+    "precommit": "npm run build-css && git add -A",
     "postpublish": "npm run update-bulma",
     "update-bulma": "npm update bulma && cp -rf ./node_modules/bulma/bulma.sass ./node_modules/bulma/sass .",
     "clean-css": "rm -rf ./theme/assets/css/*",
