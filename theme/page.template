@@ -6,6 +6,7 @@
     <title>网道 - 互联网开发文档</title>
     <!-- link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" -->
     <link rel="stylesheet" href="./assets/css/app.min.css">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.css">
   </head>
   <body>
     <% include nav %>
@@ -14,16 +15,16 @@
   <div class="container">
 
 <div class="columns">
-  <div class="column is-9">
-    <div class="content is-medium">
+  <div class="column is-8">
+    <article class="content is-medium">
       <% if (page_title !== 'Documents') { %>
         <h1><%= page_title %></h1>
       <% } %>
       <%= content %>
-    </div>
+    </article>
   </div>
 
-  <div class="column is-3 is-offset-9">
+  <div class="column is-4">
     <aside class="menu">
     </aside>
   </div>
