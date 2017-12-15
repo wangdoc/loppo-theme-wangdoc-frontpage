@@ -24,9 +24,19 @@
     </article>
   </div>
 
-  <div class="column is-4">
-    <aside class="menu">
+  <div class="column is-3 is-offset-1">
+    <nav class="panel panel-menu">
+    <p class="panel-heading">
+      <i class="fa fa-list-ul" aria-hidden="true"></i> 教程目录
+    </p>
+    <div class="panel-block">
+    <aside class="menu is-medium">
+      <ul class="menu-list">
+        <li><a target="_blank" href="/webapi"><i class="fa fa-book" aria-hidden="true"></i> Web API</a></li>
+      </ul>
     </aside>
+    </div>
+    </nav>
   </div>
 </div>
 
