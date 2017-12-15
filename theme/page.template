@@ -44,5 +44,6 @@
 </section>
 
     <% include foot %>
+    <% include script %>
   </body>
 </html>
