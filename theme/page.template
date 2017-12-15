@@ -16,7 +16,7 @@
 
 <div class="columns">
   <div class="column is-8">
-    <article class="content is-medium">
+    <article class="content is-size-4-desktop">
       <% if (page_title !== 'Documents') { %>
         <h1><%= page_title %></h1>
       <% } %>
@@ -30,7 +30,7 @@
       <i class="fa fa-list-ul" aria-hidden="true"></i> 教程目录
     </p>
     <div class="panel-block">
-    <aside class="menu is-medium">
+    <aside class="menu">
       <ul class="menu-list">
         <li><a target="_blank" href="/webapi"><i class="fa fa-book" aria-hidden="true"></i> Web API</a></li>
       </ul>
