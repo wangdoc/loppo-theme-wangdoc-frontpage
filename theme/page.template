@@ -14,7 +14,7 @@
 <section class="section homepage">
   <div class="container">
 
-<div class="columns">
+<div class="columns is-size-4-desktop">
   <div class="column is-8">
     <article class="content is-size-4-desktop">
       <% if (page_title !== 'Documents') { %>

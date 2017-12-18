@@ -10660,4 +10660,8 @@ label.panel-block:hover {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem;
 }
+
+.panel-menu .panel-block {
+  padding-left: 0px;
+}
 /*# sourceMappingURL=app.css.map */
