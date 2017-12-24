@@ -32,6 +32,12 @@
     <div class="panel-block">
     <aside class="menu">
       <ul class="menu-list">
+        <li><a target="_blank" href="/javascript">
+          <span class="icon"></span>
+          <i class="fa fa-book" aria-hidden="true"></i>
+          &nbsp;
+          <span class="menu-list-title"> JavaScript</span>
+        </a></li>
         <li><a target="_blank" href="/webapi">
           <span class="icon"></span>
           <i class="fa fa-book" aria-hidden="true"></i>
