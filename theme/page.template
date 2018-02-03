@@ -27,7 +27,7 @@
   <div class="column is-3 is-offset-1">
     <nav class="panel panel-menu">
     <p class="panel-heading">
-      <i class="fa fa-list-ul" aria-hidden="true"></i> 教程目录
+      <i class="fa fa-list-ul" aria-hidden="true"></i> 文档目录
     </p>
     <div class="panel-block">
     <aside class="menu">
@@ -37,12 +37,6 @@
           <i class="fa fa-book" aria-hidden="true"></i>
           &nbsp;
           <span class="menu-list-title"> JavaScript</span>
-        </a></li>
-        <li><a target="_blank" href="/webapi">
-          <span class="icon"></span>
-          <i class="fa fa-book" aria-hidden="true"></i>
-          &nbsp;
-          <span class="menu-list-title"> Web API</span>
         </a></li>
       </ul>
     </aside>
