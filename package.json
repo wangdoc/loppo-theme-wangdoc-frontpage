@@ -31,7 +31,7 @@
   "devDependencies": {
     "autoprefixer": "^7.1.6",
     "browserify": "^14.5.0",
-    "bulma": "^0.6.1",
+    "bulma": "^0.6.2",
     "clean-css-cli": "^4.1.10",
     "husky": "^0.14.3",
     "node-sass": "^4.7.2",
