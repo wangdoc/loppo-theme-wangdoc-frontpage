@@ -33,6 +33,12 @@
     <div class="panel-block">
     <aside class="menu">
       <ul class="menu-list">
+        <li><a target="_blank" href="/html">
+          <span class="icon"></span>
+          <i class="fa fa-book" aria-hidden="true"></i>
+          &nbsp;
+          <span class="menu-list-title"> HTML</span>
+        </a></li>
         <li><a target="_blank" href="/javascript">
           <span class="icon"></span>
           <i class="fa fa-book" aria-hidden="true"></i>
