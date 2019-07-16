@@ -1,6 +1,6 @@
 {
   "name": "loppo-theme-wangdoc-frontpage",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "template for Wangdoc frontpage",
   "main": "index.js",
   "scripts": {
