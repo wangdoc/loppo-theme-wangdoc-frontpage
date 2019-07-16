@@ -29,13 +29,13 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "autoprefixer": "^7.1.6",
-    "browserify": "^14.5.0",
-    "bulma": "^0.6.2",
-    "clean-css-cli": "^4.1.10",
-    "husky": "^0.14.3",
-    "node-sass": "^4.10.0",
-    "postcss-cli": "^4.1.1",
-    "uglifyify": "^4.0.5"
+    "autoprefixer": "9.x",
+    "browserify": "16.x",
+    "bulma": "^0.7.5",
+    "clean-css-cli": "^4.3.0",
+    "husky": "3.x",
+    "node-sass": "^4.12.0",
+    "postcss-cli": "6.x",
+    "uglify-js": "3.x"
   }
 }
