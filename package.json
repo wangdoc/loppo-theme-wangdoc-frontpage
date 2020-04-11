@@ -4,7 +4,6 @@
   "description": "template for Wangdoc frontpage",
   "main": "index.js",
   "scripts": {
-    "precommit": "npm run build-css && npm run build-js && git add -A",
     "postversion": "npm run update-bulma",
     "update-bulma": "npm update bulma && cp -rf ./node_modules/bulma/bulma.sass ./node_modules/bulma/sass .",
     "clean-css": "rm -rf ./theme/assets/css/*",
@@ -27,6 +26,9 @@
     "theme",
     "template"
   ],
+  "hooks": {
+    "pre-commit": "npm run build-css && npm run build-js && git add -A"
+  },
   "author": "Ruan Yifeng",
   "license": "MIT",
   "dependencies": {},
@@ -35,7 +37,7 @@
     "browserify": "16.x",
     "bulma": "^0.8.2",
     "clean-css-cli": "^4.3.0",
-    "husky": "4.x",
+    "husky": "^4.2.5",
     "node-sass": "^4.12.0",
     "postcss-cli": "7.x",
     "uglify-js": "3.x"
