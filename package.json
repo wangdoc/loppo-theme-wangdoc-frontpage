@@ -13,7 +13,7 @@
     "build-uglify": "cleancss --source-map -o theme/assets/css/app.min.css theme/assets/css/app.css",
     "build-js": "mkdir -p theme/assets/js && npm run build-js-app && npm run build-js-support",
     "build-js-app": "browserify scripts/index.js | uglifyjs -c > theme/assets/js/app.js",
-    "build-js-support": "uglifyjs -c scripts/support.js > theme/assets/js/s.js",
+    "build-js-support": "uglifyjs scripts/support.js -c > theme/assets/js/s.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "https://github.com/wangdoc/loppo-theme-wangdoc-frontpage",
@@ -26,8 +26,10 @@
     "theme",
     "template"
   ],
-  "hooks": {
-    "pre-commit": "npm run build-css && npm run build-js && git add -A"
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build-css && npm run build-js && git add -A"
+    }
   },
   "author": "Ruan Yifeng",
   "license": "MIT",
@@ -39,7 +41,7 @@
     "clean-css-cli": "^4.3.0",
     "husky": "^4.2.5",
     "node-sass": "^4.12.0",
-    "postcss-cli": "7.x",
+    "postcss-cli": "^7.1.0",
     "uglify-js": "3.x"
   }
 }
