@@ -51,6 +51,12 @@
           &nbsp;
           <span class="menu-list-title"> Web API</span>
         </a></li>
+        <li><a target="_blank" href="/bash">
+          <span class="icon"></span>
+          <i class="fa fa-book" aria-hidden="true"></i>
+          &nbsp;
+          <span class="menu-list-title"> Bash</span>
+        </a></li>
       </ul>
     </aside>
     </div>
