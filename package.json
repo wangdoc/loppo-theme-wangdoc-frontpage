@@ -12,7 +12,9 @@
     "build-autoprefix": "postcss --use autoprefixer --map false --output theme/assets/css/app.css theme/assets/css/app.css",
     "build-sass": "node-sass --output-style expanded --source-map true sass/app.sass theme/assets/css/app.css",
     "build-uglify": "cleancss --source-map -o theme/assets/css/app.min.css theme/assets/css/app.css",
-    "build-js": "mkdir -p theme/assets/js && browserify scripts/index.js | uglifyjs -c > theme/assets/js/app.js",
+    "build-js": "mkdir -p theme/assets/js && npm run build-js-app && npm run build-js-support",
+    "build-js-app": "browserify scripts/index.js | uglifyjs -c > theme/assets/js/app.js",
+    "build-js-support": "uglifyjs -c scripts/support.js > theme/assets/js/s.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "https://github.com/wangdoc/loppo-theme-wangdoc-frontpage",
@@ -31,11 +33,11 @@
   "devDependencies": {
     "autoprefixer": "9.x",
     "browserify": "16.x",
-    "bulma": "^0.7.5",
+    "bulma": "^0.8.2",
     "clean-css-cli": "^4.3.0",
-    "husky": "3.x",
+    "husky": "4.x",
     "node-sass": "^4.12.0",
-    "postcss-cli": "6.x",
+    "postcss-cli": "7.x",
     "uglify-js": "3.x"
   }
 }
