@@ -31,7 +31,7 @@ function showSupBanner() {
   ].join(';');
 
   var text = '【免费领取】' +
-    '廖学峰老师历时三个月整理的<span style="color: #4682BE;">《Vue3 响应式原理 & 前端面试攻略》</span>。';
+    '廖雪峰老师历时三个月整理的<span style="color: #4682BE;">《Vue3 响应式原理 & 前端面试攻略》</span>。';
 
   bannerP.style = styleStr;
   bannerP.innerHTML = '<a href="https://datayi.cn/w/a9BLwxNP" target="_blank" style="color: #333333;">' + text + '</a>';
