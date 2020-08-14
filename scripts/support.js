@@ -1,6 +1,6 @@
 function showSupBanner() {
-  // 2020年8月15日
-  var deadline = new Date(2020, 7, 15);
+  // 2020年12月1日
+  var deadline = new Date(2020, 11, 1);
   if (deadline - (new Date()) < 0) return;
 
   // scope check
@@ -29,12 +29,11 @@ function showSupBanner() {
     // 'width: 210px',
     'color: #333333'
   ].join(';');
-
   var text = '【免费领取】' +
-    '廖雪峰老师历时三个月整理的<span style="color: #4682BE;">《Vue3 响应式原理 & 前端面试攻略》</span>。';
+    '廖雪峰老师历时三个月整理的<span style="color: #4682BE;">《Vue 源码 + 3.0语法剖析教程》</span>。';
 
   bannerP.style = styleStr;
-  bannerP.innerHTML = '<a href="https://datayi.cn/w/a9BLwxNP" target="_blank" style="color: #333333;">' + text + '</a>';
+  bannerP.innerHTML = '<a href="https://datayi.cn/w/4PYBzGWo" target="_blank" style="color: #333333;">' + text + '</a>';
 
   // insert into page
   var metaNode = document.querySelector('.page-meta');
