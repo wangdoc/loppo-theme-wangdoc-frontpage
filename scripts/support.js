@@ -1,6 +1,6 @@
 function showSupBanner() {
-  // 2020年12月1日
-  var deadline = new Date(2020, 11, 1);
+  // 2020年11月1日
+  var deadline = new Date(2020, 10, 1);
   if (deadline - (new Date()) < 0) return;
 
   // scope check
