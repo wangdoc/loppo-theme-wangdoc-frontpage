@@ -1,10 +1,10 @@
 function showSupBanner() {
   // 重要！
   // 每次更新此脚本，可以打开或关闭下面这行注释，使得脚本长度发生变化
-  console.log();
+  // console.log();
 
-  // 2020年11月1日
-  var deadline = new Date(2020, 10, 1);
+  // 2021年1月1日
+  var deadline = new Date(2021, 0, 1);
   if (deadline - (new Date()) < 0) return;
 
   // scope check
@@ -33,11 +33,11 @@ function showSupBanner() {
     // 'width: 210px',
     'color: #333333'
   ].join(';');
-  var text = '【免费领取】' +
-    '廖雪峰老师历时三个月整理的<span style="color: #4682BE;">《Vue 源码 + 3.0语法剖析教程》</span>。';
+  var text = '【视频教程】' +
+    '<span style="color: #4682BE;">《React 原理和组件化》</span>，现在免费领取。';
 
   bannerP.style = styleStr;
-  bannerP.innerHTML = '<a href="https://datayi.cn/w/4PYBzGWo" target="_blank" style="color: #333333;">' + text + '</a>';
+  bannerP.innerHTML = '<a href="https://datayi.cn/w/AovL7ZNR" target="_blank" style="color: #333333;">' + text + '</a>';
 
   // insert into page
   var metaNode = document.querySelector('.page-meta');
