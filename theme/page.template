@@ -63,6 +63,12 @@
           &nbsp;
           <span class="menu-list-title"> Bash</span>
         </a></li>
+        <li><a target="_blank" href="/ssh">
+          <span class="icon"></span>
+          <i class="fa fa-book" aria-hidden="true"></i>
+          &nbsp;
+          <span class="menu-list-title"> SSH</span>
+        </a></li>
       </ul>
     </aside>
     </div>
