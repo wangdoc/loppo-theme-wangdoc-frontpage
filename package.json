@@ -33,15 +33,17 @@
   },
   "author": "Ruan Yifeng",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "postcss": "^8.2.1"
+  },
   "devDependencies": {
-    "autoprefixer": "9.x",
-    "browserify": "16.x",
-    "bulma": "^0.8.2",
+    "autoprefixer": "^10.1.0",
+    "browserify": "17.x",
+    "bulma": "^0.9.1",
     "clean-css-cli": "^4.3.0",
-    "husky": "^4.2.5",
-    "node-sass": "^4.14.1",
-    "postcss-cli": "^7.1.1",
-    "uglify-js": "^3.9.2"
+    "husky": "^4.3.6",
+    "node-sass": "^5.0.0",
+    "postcss-cli": "^8.3.1",
+    "uglify-js": "^3.12.3"
   }
 }
