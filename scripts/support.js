@@ -1,10 +1,10 @@
 function showSupBanner() {
   // 重要！
   // 每次更新此脚本，可以打开或关闭下面这行注释，使得脚本长度发生变化
-  console.log();
+  // console.log();
 
-  // 2021年2月3日
-  var deadline = new Date(2021, 1, 3);
+  // 2021年3月18日
+  var deadline = new Date(2021, 2, 18);
   if (deadline - (new Date()) < 0) return;
 
   // scope check
@@ -33,11 +33,11 @@ function showSupBanner() {
     // 'width: 210px',
     'color: #333333'
   ].join(';');
-  var text = '【视频教程】' +
-    '<span style="color: #4682BE;">《React 原理和组件化》</span>，现在免费领取。';
+  var text = '【免费资料】' +
+    '开课吧<span style="color: #4682BE;">《数据分析进阶精选》</span>精品课，讲解数据分析模型与工具（Excel / Python / SQL 等），附带实战案例详细拆解。';
 
   bannerP.style = styleStr;
-  bannerP.innerHTML = '<a href="https://datayi.cn/w/AovL7ZNR" target="_blank" style="color: #333333;">' + text + '</a>';
+  bannerP.innerHTML = '<a href="https://t.1yb.co/gXGw" target="_blank" style="color: #333333;">' + text + '</a>';
 
   // insert into page
   var metaNode = document.querySelector('.page-meta');
