@@ -1,7 +1,7 @@
 function showSupBanner() {
   // 重要！
   // 每次更新此脚本，可以打开或关闭下面这行注释，使得脚本长度发生变化
-  // console.log();
+  console.log();
 
   // 2021年3月18日
   var deadline = new Date(2021, 2, 18);
@@ -34,7 +34,7 @@ function showSupBanner() {
     'color: #333333'
   ].join(';');
   var text = '【免费资料】' +
-    '开课吧<span style="color: #4682BE;">《数据分析进阶精选》</span>精品课，讲解数据分析模型与工具（Excel / Python / SQL 等），附带实战案例详细拆解。';
+    '<span style="color: #4682BE;">Excel + Python + SQL 数据处理入门</span>，课程资料下载。';
 
   bannerP.style = styleStr;
   bannerP.innerHTML = '<a href="https://t.1yb.co/gXGw" target="_blank" style="color: #333333;">' + text + '</a>';

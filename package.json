@@ -40,8 +40,8 @@
     "clean-css-cli": "^4.3.0",
     "husky": "^4.3.8",
     "node-sass": "^5.0.0",
-    "postcss": "^8.2.4",
+    "postcss": "^8.2.6",
     "postcss-cli": "^8.3.1",
-    "uglify-js": "^3.12.6"
+    "uglify-js": "^3.12.8"
   }
 }
