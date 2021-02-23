@@ -1,10 +1,10 @@
 function showSupBanner() {
   // 重要！
   // 每次更新此脚本，可以打开或关闭下面这行注释，使得脚本长度发生变化
-  console.log();
+  // console.log();
 
-  // 2021年3月18日
-  var deadline = new Date(2021, 2, 18);
+  // 2021年2月18日
+  var deadline = new Date(2021, 1, 18);
   if (deadline - (new Date()) < 0) return;
 
   // scope check
