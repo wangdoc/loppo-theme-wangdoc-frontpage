@@ -1,10 +1,10 @@
 function showSupBanner() {
   // 重要！
   // 每次更新此脚本，可以打开或关闭下面这行注释，使得脚本长度发生变化
-  // console.log();
+  console.log();
 
-  // 2021年2月18日
-  var deadline = new Date(2021, 1, 18);
+  // 2021年9月6日
+  var deadline = new Date(2021, 8, 6);
   if (deadline - (new Date()) < 0) return;
 
   // scope check
@@ -34,10 +34,10 @@ function showSupBanner() {
     'color: #333333'
   ].join(';');
   var text = '【免费资料】' +
-    '<span style="color: #4682BE;">Excel + Python + SQL 数据处理入门</span>，课程资料下载。';
+    '开课吧<span style="color: #4682BE;">《前端工程化实战》</span>，精品课领取，教你从零构建一个 Vue 组件库，动手实践“开发 ➜ 单元测试 ➜ Lint 检查 ➜ 构建打包 ➜ 发布”全过程，最后编写一个 CLI 命令行工具，自动化整个流程。';
 
   bannerP.style = styleStr;
-  bannerP.innerHTML = '<a href="https://t.1yb.co/gXGw" target="_blank" style="color: #333333;">' + text + '</a>';
+  bannerP.innerHTML = '<a href="https://t.1yb.co/xNLY" target="_blank" style="color: #333333;">' + text + '</a>';
 
   // insert into page
   var metaNode = document.querySelector('.page-meta');
