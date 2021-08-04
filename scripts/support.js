@@ -28,13 +28,13 @@ function showSupBanner() {
     'padding: 1em',
     'background-color: #c4e0e1',
     'border-radius: 5px',
-    'font-size: 90%',
+    'font-size: 95%',
     // 'font-size: 75%',
     // 'width: 210px',
     'color: #333333'
   ].join(';');
   var text = '【免费资料】' +
-    '开课吧<span style="color: #4682BE;">《前端工程化实战》</span>，精品课领取，教你从零构建一个 Vue 组件库，动手实践“开发 ➜ 单元测试 ➜ Lint 检查 ➜ 构建打包 ➜ 发布”全过程，最后编写一个 CLI 命令行工具，自动化整个流程。';
+    '开课吧<span style="color: #4682BE;font-weight: 700;">《前端工程化实战》</span>精品课领取，教你从零构建一个 Vue 组件库，完成前端工程全流程：开发➜单元测试➜ Lint 检查➜构建打包➜发布。';
 
   bannerP.style = styleStr;
   bannerP.innerHTML = '<a href="https://t.1yb.co/xNLY" target="_blank" style="color: #333333;">' + text + '</a>';
