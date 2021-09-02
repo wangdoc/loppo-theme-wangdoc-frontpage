@@ -34,10 +34,10 @@
   "author": "Ruan Yifeng",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^10.3.1",
+    "autoprefixer": "^10.3.3",
     "browserify": "^17.0.0",
     "bulma": "^0.9.3",
-    "clean-css-cli": "^5.3.2",
+    "clean-css-cli": "^5.3.3",
     "husky": "4.3.8",
     "node-sass": "^5.0.0",
     "postcss": "^8.3.6",

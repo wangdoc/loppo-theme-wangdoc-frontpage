@@ -1,15 +1,16 @@
 function showSupBanner() {
   // 重要！
   // 每次更新此脚本，可以打开或关闭下面这行注释，使得脚本长度发生变化
-  console.log();
+  // console.log();
 
-  // 2021年9月6日
-  var deadline = new Date(2021, 8, 6);
+  // 2021年10月9日
+  var deadline = new Date(2021, 9, 9);
   if (deadline - (new Date()) < 0) return;
 
   // scope check
   var scope = 'all';
   var currentScope = window.location.pathname.split('/')[1];
+  // if (currentScope === 'clang') return;
   if (scope !== 'all' && !scope.includes(currentScope)) return;
 
   // page path check
@@ -34,10 +35,10 @@ function showSupBanner() {
     'color: #333333'
   ].join(';');
   var text = '【免费资料】' +
-    '开课吧<span style="color: #4682BE;font-weight: 700;">《前端工程化实战》</span>精品课领取，教你从零构建一个 Vue 组件库，完成前端工程全流程：开发➜单元测试➜ Lint 检查➜构建打包➜发布。';
+    '开课吧<span style="color: #4682BE;font-weight: 700;">《深度理解 Vue 3.0 核心源码》</span>精品课领取，讲解 Vue 3.0 源码，动手制作实战项目，快速上手Vue 3.0。';
 
   bannerP.style = styleStr;
-  bannerP.innerHTML = '<a href="https://t.1yb.co/xNLY" target="_blank" style="color: #333333;">' + text + '</a>';
+  bannerP.innerHTML = '<a href="https://t.1yb.co/AzbZ" target="_blank" style="color: #333333;">' + text + '</a>';
 
   // insert into page
   var metaNode = document.querySelector('.page-meta');
