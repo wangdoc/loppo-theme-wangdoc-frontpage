@@ -16,7 +16,7 @@
   <div class="container">
 
 <div class="columns">
-  <div class="column is-8 is-6-widescreen is-offset-1">
+  <div class="column is-8 is-6-widescreen is-offset-1-widescreen">
     <article class="content">
       <% if (page_title !== 'Documents') { %>
         <h1><%= page_title %></h1>
