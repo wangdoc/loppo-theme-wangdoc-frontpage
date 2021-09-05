@@ -10,7 +10,7 @@
     "build-css": "npm run clean-css && npm run build-sass && npm run build-autoprefix && npm run build-uglify",
     "build-autoprefix": "postcss --use autoprefixer --map false --output theme/assets/css/app.css theme/assets/css/app.css",
     "build-sass": "node-sass --output-style expanded --source-map true sass/app.sass theme/assets/css/app.css",
-    "build-uglify": "cleancss --source-map -o theme/assets/css/app.min.css theme/assets/css/app.css",
+    "build-uglify": "cleancss --source-map --with-rebase -o theme/assets/css/app.min.css theme/assets/css/app.css",
     "build-js": "mkdir -p theme/assets/js && npm run build-js-app && npm run build-js-support",
     "build-js-app": "browserify scripts/index.js | uglifyjs -c > theme/assets/js/app.js",
     "build-js-support": "uglifyjs scripts/support.js -c > theme/assets/js/s.js",
@@ -34,7 +34,7 @@
   "author": "Ruan Yifeng",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^10.3.3",
+    "autoprefixer": "^10.3.4",
     "browserify": "^17.0.0",
     "bulma": "^0.9.3",
     "clean-css-cli": "^5.3.3",

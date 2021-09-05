@@ -15,9 +15,9 @@
 <section class="section homepage">
   <div class="container">
 
-<div class="columns is-size-5-widescreen">
-  <div class="column is-8">
-    <article class="content is-size-5-widescreen">
+<div class="columns">
+  <div class="column is-8 is-6-widescreen is-offset-1">
+    <article class="content">
       <% if (page_title !== 'Documents') { %>
         <h1><%= page_title %></h1>
       <% } %>
@@ -56,6 +56,12 @@
           <i class="fa fa-book" aria-hidden="true"></i>
           &nbsp;
           <span class="menu-list-title"> Web API</span>
+        </a></li>
+        <li><a target="_blank" href="/clang">
+          <span class="icon"></span>
+          <i class="fa fa-book" aria-hidden="true"></i>
+          &nbsp;
+          <span class="menu-list-title"> C 语言</span>
         </a></li>
         <li><a target="_blank" href="/bash">
           <span class="icon"></span>
