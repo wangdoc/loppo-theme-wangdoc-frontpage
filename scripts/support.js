@@ -1,10 +1,10 @@
 function showSupBanner() {
   // 重要！
   // 每次更新此脚本，可以打开或关闭下面这行注释，使得脚本长度发生变化
-  // console.log();
+  console.log();
 
-  // 2021年10月9日
-  var deadline = new Date(2021, 9, 9);
+  // 2022年4月8日
+  var deadline = new Date(2022, 3, 8);
   if (deadline - (new Date()) < 0) return;
 
   // scope check
@@ -34,11 +34,10 @@ function showSupBanner() {
     // 'width: 210px',
     'color: #333333'
   ].join(';');
-  var text = '【免费资料】' +
-    '开课吧<span style="color: #4682BE;font-weight: 700;">《深度理解 Vue 3.0 核心源码》</span>精品课领取，讲解 Vue 3.0 源码，动手制作实战项目，快速上手Vue 3.0。';
+  var text = '网络接口开发神器<span style="color: #4682BE;font-weight: 700;"> Apifox </span>，同时集成了 Postman + Swagger + Mock + JMeter，接口开发、调试、文档、测试一体化，点击<span style="color: #4682BE;font-weight: 700;">这里</span>在线使用。';
 
   bannerP.style = styleStr;
-  bannerP.innerHTML = '<a href="https://t.1yb.co/AzbZ" target="_blank" style="color: #333333;">' + text + '</a>';
+  bannerP.innerHTML = '<a href="https://www.apifox.cn/?utm_source=wangdao" target="_blank" style="color: #333333;">' + text + '</a>';
 
   // insert into page
   var metaNode = document.querySelector('.page-meta');
