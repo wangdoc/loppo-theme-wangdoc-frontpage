@@ -1,7 +1,7 @@
 function showSupBanner() {
   // 重要！
   // 每次更新此脚本，可以打开或关闭下面这行注释，使得脚本长度发生变化
-  // console.log();
+  console.log();
 
   // 2022年4月8日
   var deadline = new Date(2022, 3, 8);
@@ -34,7 +34,7 @@ function showSupBanner() {
     // 'width: 210px',
     'color: #333333'
   ].join(';');
-  var text = '<i class="fa fa-hand-o-right" aria-hidden="true"></i> 网络接口开发神器<span style="color: #4682BE;font-weight: 700;"> Apifox </span>，同时集成了 Postman + Swagger + Mock + JMeter，接口开发、调试、文档、测试一体化，点击<span style="color: #4682BE;font-weight: 700;">这里</span>在线使用。';
+  var text = '<i class="fa fa-hand-o-right" aria-hidden="true"></i> 网络接口开发神器<span style="color: #4682BE;font-weight: 700;"> Apifox </span>，同时集成了 Postman + Swagger + Mock + JMeter，接口开发、调试、文档、测试一体化，点击<span style="color: #4682BE;font-weight: 700;">这里</span>下载使用。';
 
   bannerP.style = styleStr;
   bannerP.innerHTML = '<a href="https://www.apifox.cn/?utm_source=wangdao" target="_blank" style="color: #333333;">' + text + '</a>';
