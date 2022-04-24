@@ -1,7 +1,7 @@
 function showSupBanner() {
   // 重要！
   // 每次更新此脚本，可以打开或关闭下面这行注释，使得脚本长度发生变化
-  console.log();
+  // console.log();
 
   // 2022年5月23日
   var deadline = new Date(2022, 4, 23);
@@ -19,7 +19,7 @@ function showSupBanner() {
 
   // create banner node
   var bannerDiv = document.createElement('div');
-  bannerDiv.classList.add('notification', 'is-link', 'is-light');
+  bannerDiv.classList.add('notification', 'is-link', 'is-light', 'is-size-7', 'p-3');
   var bannerButton = document.createElement('button');
   bannerButton.classList.add('delete');
   bannerButton.setAttribute('onclick', 'this.parentNode.parentNode.removeChild(this.parentNode)');
@@ -43,7 +43,7 @@ function showSupBanner() {
   var text = '<i class="fa fa-hand-o-right" aria-hidden="true"></i> API 开发管理神器<span style="color: #4682BE;font-weight: 700;"> Apifox</span>，同时集成 Postman + Swagger + Mock + JMeter，API 文档、API 调试、API Mock、API 自动测试一体化，点击<span style="color: #4682BE;font-weight: 700;">这里</span>下载使用。';
 
   // bannerP.style = styleStr;
-  bannerP.innerHTML = '<a href="https://www.apifox.cn/?utm_source=wangdao" class="is-size-7" target="_blank" style="color: #333333;text-decoration:none;">' + text + '</a>';
+  bannerP.innerHTML = '<a href="https://www.apifox.cn/?utm_source=wangdao" target="_blank" style="color: #333333;text-decoration:none;">' + text + '</a>';
 
   // insert into page
   var metaNode = document.querySelector('.page-meta');
