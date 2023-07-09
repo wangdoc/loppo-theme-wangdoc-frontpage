@@ -39,9 +39,9 @@
     "bulma": "^0.9.3",
     "clean-css-cli": "^5.5.2",
     "husky": "4.3.8",
-    "sass": "^1.49.0",
+    "sass": "1.x",
     "postcss": "^8.4.8",
-    "postcss-cli": "^9.1.0",
+    "postcss-cli": "10.x",
     "uglify-js": "^3.15.2"
   }
 }
