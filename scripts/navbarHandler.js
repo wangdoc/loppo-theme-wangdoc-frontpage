@@ -22,3 +22,4 @@ function navbarHandler() {
   }
 }
 
+module.exports = navbarHandler;
