@@ -14,6 +14,7 @@ function showDropdownMenu() {
   if (!menu) {
     hasMenu = false;
     menu = document.createElement('div');
+    menu.id = 'navMenu';
     menu.classList.add('navbar-menu');
   }
 
@@ -27,6 +28,7 @@ function showDropdownMenu() {
 
   var arrow = document.createElement('a');
   arrow.classList.add('navbar-link');
+  arrow.classList.add('is-hidden-touch');
   item.appendChild(arrow);
 
   var dropdown = document.createElement('div');
