@@ -1,3 +1,62 @@
+const Tutorials = [
+  ['HTML 教程', '/html'],
+  ['JavaScript 教程', '/javascript'],
+  ['ES6 教程', '/es6'],
+  ['Web API 教程', '/webapi'],
+  ['C 语言教程', '/clang'],
+  ['Bash 教程', '/bash'],
+  ['SSH 教程', '/ssh']
+];
+
+function showDropdownMenu() {
+  var menu = document.querySelector('nav div.container div.navbar-menu');
+  var hasMenu = true;
+  if (!menu) {
+    hasMenu = false;
+    menu = document.createElement('div');
+    menu.classList.add('navbar-menu');
+  }
+
+  var start = document.createElement('div');
+  start.classList.add('navbar-start');
+
+  var item = document.createElement('div');
+  item.classList.add('navbar-item');
+  item.classList.add('has-dropdown');
+  item.classList.add('is-hoverable');
+
+  var arrow = document.createElement('a');
+  arrow.classList.add('navbar-link');
+  item.appendChild(arrow);
+
+  var dropdown = document.createElement('div');
+  dropdown.classList.add('navbar-dropdown');
+
+  for (var i = 0; i < Tutorials.length; i++) {
+    var link = document.createElement('a');
+    link.classList.add('navbar-item');
+    link.href = Tutorials[i][1];
+    var textNode = document.createTextNode(Tutorials[i][0]);
+    link.appendChild(textNode);
+    dropdown.appendChild(link);
+  }
+
+  item.appendChild(dropdown);
+  start.appendChild(item);
+
+  if (hasMenu) {
+    var end = document.querySelector('nav div.container div.navbar-menu div.navbar-end');
+    if (end) {
+      menu.insertBefore(start, end);
+    } else {
+      menu.appendChild(start);
+    }
+  } else {
+    menu.appendChild(start);
+    document.querySelector('nav div.container').appendChild(menu);
+  }
+}
+
 function showSupBanner() {
   // 重要！
   // 每次更新此脚本，可以打开或关闭下面这行注释，使得脚本长度发生变化
@@ -53,4 +112,5 @@ function showSupBanner() {
   // console.log('loaded');
 }
 
+showDropdownMenu();
 showSupBanner();
