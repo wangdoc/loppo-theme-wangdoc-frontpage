@@ -10,13 +10,7 @@ const Tutorials = [
 
 function showDropdownMenu() {
   var menu = document.querySelector('nav div.container div.navbar-menu');
-  var hasMenu = true;
-  if (!menu) {
-    hasMenu = false;
-    menu = document.createElement('div');
-    menu.id = 'navMenu';
-    menu.classList.add('navbar-menu');
-  }
+  if (!menu) return;
 
   var start = document.createElement('div');
   start.classList.add('navbar-start');
@@ -46,16 +40,11 @@ function showDropdownMenu() {
   item.appendChild(dropdown);
   start.appendChild(item);
 
-  if (hasMenu) {
-    var end = document.querySelector('nav div.container div.navbar-menu div.navbar-end');
-    if (end) {
-      menu.insertBefore(start, end);
-    } else {
-      menu.appendChild(start);
-    }
+  var end = document.querySelector('nav div.container div.navbar-menu div.navbar-end');
+  if (end) {
+    menu.insertBefore(start, end);
   } else {
     menu.appendChild(start);
-    document.querySelector('nav div.container').appendChild(menu);
   }
 }
 
