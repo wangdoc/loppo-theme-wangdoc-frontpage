@@ -51,6 +51,12 @@
           &nbsp;
           <span class="menu-list-title"> ES6</span>
         </a></li>
+        <li><a target="_blank" href="/typescript">
+          <span class="icon"></span>
+          <i class="fa fa-book" aria-hidden="true"></i>
+          &nbsp;
+          <span class="menu-list-title"> TypeScript</span>
+        </a></li>
         <li><a target="_blank" href="/webapi">
           <span class="icon"></span>
           <i class="fa fa-book" aria-hidden="true"></i>

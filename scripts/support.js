@@ -2,6 +2,7 @@ const Tutorials = [
   ['HTML 教程', '/html'],
   ['JavaScript 教程', '/javascript'],
   ['ES6 教程', '/es6'],
+  ['TypeScript 教程', '/typescript'],
   ['Web API 教程', '/webapi'],
   ['C 语言教程', '/clang'],
   ['Bash 教程', '/bash'],
