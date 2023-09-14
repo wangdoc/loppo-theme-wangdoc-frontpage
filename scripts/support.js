@@ -104,5 +104,39 @@ function showSupBanner() {
   // console.log('loaded');
 }
 
+function addScript(url) {
+  var body = document.querySelector('body');
+
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.charset = 'UTF-8';
+  script.async = true;
+  script.src = url;
+
+  body.appendChild(script);
+}
+
+function showSideAd() {
+  var nav = document.createElement('nav');
+  nav.classList.add('panel', 'panel-support');
+
+  var div = document.createElement('div');
+  div.classList.add('wwads-cn', 'wwads-horizontal');
+  div.dataset.id = '282';
+  div.style = 'max-width:350px';
+
+  nav.appendChild(div);
+
+  var menu = document.querySelector('.panel-menu');
+  if (!menu) return;
+
+  var parent = menu.parentNode;
+  parent.insertBefore(nav, menu);
+
+  addScript('https://cdn.wwads.cn/js/makemoney.js');
+}
+
 showDropdownMenu();
 showSupBanner();
+showSideAd();
+
